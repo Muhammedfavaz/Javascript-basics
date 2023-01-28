@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        /* OOP */  /* OBJECT ORIENTED PROGRAM */
+
+        // let employee = {
+        //     name : "favaz",
+        //     place : "ponnani",
+        //     age : 22,
+
+        //     getemployee :function(){
+        //         document.write("his name  ",this.name,"and he come from ",this.place)
+        
+        //     }
+        // }
+        // employee.getemployee() /*normal creation */
+
+
+        /*class  */  /* we can simply creat multiple object  using class*/
+
+        // class employee{
+        //     constructor(name, place, age){
+        //         this.name = name,
+        //         this.place = place,
+        //         this.age = age
+        //     }
+        //     getemployee(){
+        //         document.write("his name is ",this.name," he come from ",this.place)
+        //     }
+        // }
+        // let e1 = new employee("favaz","ponnani",22) /*object created*/
+        // let e2 = new employee("rizan","maranchery","23")
+        // e1.getemployee()
+        // e2.getemployee()
+
+
+
+
+        /*inheritance*/ 
+
+        class employee{
+            constructor(name, place, age){
+                this.name = name,
+                this.place = place,
+                this.age = age
+            }
+            getemployee(){
+                document.write("his name is ",this.name," he come from ",this.place)
+            }
+        }
+
+        class manager extends employee{
+
+        }
+        let e1 = new employee("favaz","ponnani",22)
+        e1.getemployee()
+
+
+
+    </script>
+</body>
+</html>
