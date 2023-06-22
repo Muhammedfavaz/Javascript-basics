@@ -9,7 +9,7 @@ function solution(number){
             console.log("hhj")
         }
         if (i % 5 == 0){
-             multipleOffives.push(i)
+             multipleOffives.push(i )
         }
     }
 
