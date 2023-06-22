@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day-1</title>
+</head>
+<body>
+    <style>
+        body{
+            padding: 35px;
+        }
+        .main-body{
+            padding-top: 15px;
+            width: 500px;
+            height: 600px;
+            background: #b6b6b6;
+           margin: auto;
+       
+        }
+        h1{
+            color: #fff;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding-left: 135px;
+
+        }
+        button{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: #fff;
+            border: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 10px;
+            
+        }
+        #incrementBtn{
+            background:darkred;
+            margin-left: 183px;
+        }
+        #counting{
+            margin-left: 95px;
+        }
+        #saveBtn{
+            background:darkred;
+            margin-left: 200px;
+        }
+        #clearBtn{
+            background:darkred;
+            margin-left: 195px;
+        }
+        h3{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 133px;
+
+        }
+    </style>
+
+
+
+
+
+
+
+
+    <div class="main-body">
+
+    <h1>people entered : </h1>
+
+    <h1 id="counting">0</h1>
+
+        <button type="button" id="incrementBtn" onclick="count()">INCREMENT</button>
+        <br>
+        <br>
+        <button type="button" id="incrementBtn" onclick="countLess()">DECREMENT</button>
+        <br>
+        <br>
+        <button type="button" id="clearBtn" onclick="clearBtn()">CLEAR</button>
+        <br>
+        <br>
+        <button type="button" id="saveBtn" onclick="saveBtn()">SAVE</button>
+       
+        <h3 id="pervioussave"> </h3>
+
+    </div>
+
+    
+
+
+    <script src="practice1.js"></script>
+
+</body>
+</html>
